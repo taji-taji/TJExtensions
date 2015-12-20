@@ -1,0 +1,25 @@
+{
+  "name": "TJExtensions",
+  "version": "0.1.0",
+  "summary": "A short description of TJExtensions.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TJExtensions",
+  "license": "MIT",
+  "authors": {
+    "Yutaka Tajika": "y.tajika529@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TJExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TJExtensions": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
