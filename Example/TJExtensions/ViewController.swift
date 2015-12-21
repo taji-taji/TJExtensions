@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TJExtensions
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // ビューの背景色を指定
         borderedView.backgroundColor = UIColor(hex: 0x859495, alpha: 1.0)
     }
