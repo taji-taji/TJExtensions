@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
 Useful extensions for UIKit framework.
+'UIView', 'UILabel' and 'UIColor' are extended.
                        DESC
 
   s.homepage         = "https://github.com/taji-taji/TJExtensions"
