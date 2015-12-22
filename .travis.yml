@@ -12,6 +12,7 @@ podfile: Example/Podfile
 before_install:
 - rvm install ruby-2.2.0
 - gem install cocoapods # Since Travis is not always on latest version
+- gem install xcpretty
 - pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -workspace Example/TJExtensions.xcworkspace -scheme TJExtensions-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
