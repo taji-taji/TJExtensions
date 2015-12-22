@@ -6,7 +6,7 @@ Useful extensions for UIKit framework.
 - TJViewExtensions
 - TJLabelExtensions
 
-[![CI Status](http://img.shields.io/travis/taji-taji/TJExtensions.svg?style=flat)](https://travis-ci.org/Yutaka Tajika/TJExtensions)
+[![CI Status](http://img.shields.io/travis/taji-taji/TJExtensions.svg?style=flat)](https://travis-ci.org/taji-taji/TJExtensions)
 [![Version](https://img.shields.io/cocoapods/v/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
 [![License](https://img.shields.io/cocoapods/l/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
