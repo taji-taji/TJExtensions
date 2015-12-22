@@ -15,5 +15,5 @@ before_install:
 - gem install xcpretty
 - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/TJExtensions.xcworkspace -scheme TJExtensions-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+# - set -o pipefail && xcodebuild test -workspace Example/TJExtensions.xcworkspace -scheme TJExtensions-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
