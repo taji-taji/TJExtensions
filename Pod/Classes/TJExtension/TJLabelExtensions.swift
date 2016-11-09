@@ -21,9 +21,9 @@ public extension UILabel {
             }
             let textAttributes =  NSMutableAttributedString(string: text)
             if newValue {
-                textAttributes.addAttribute(NSUnderlineStyleAttributeName, value: NSUnderlineStyle.StyleSingle.rawValue, range: NSMakeRange(0, text.characters.count))
+                textAttributes.addAttribute(NSUnderlineStyleAttributeName, value: NSUnderlineStyle.styleSingle.rawValue, range: NSMakeRange(0, text.characters.count))
             } else {
-                textAttributes.addAttribute(NSUnderlineStyleAttributeName, value: NSUnderlineStyle.StyleNone.rawValue, range: NSMakeRange(0, text.characters.count))
+                textAttributes.addAttribute(NSUnderlineStyleAttributeName, value: NSUnderlineStyle.styleNone.rawValue, range: NSMakeRange(0, text.characters.count))
             }
             self.attributedText = textAttributes
         }

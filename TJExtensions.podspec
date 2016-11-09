@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TJExtensions"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Useful extensions for UIKit framework."
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Useful extensions for UIKit framework.
   s.source           = { :git => "https://github.com/taji-taji/TJExtensions.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

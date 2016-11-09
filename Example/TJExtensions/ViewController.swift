@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let borderColor = UIColor(intRed: 255, green: 30, blue: 20, alpha: 1.0)
         
         // TopとRightに線をつける
-        borderedView.border([.Top, .Right], borderWidth: 3.5, borderColor: borderColor)
+        borderedView.border([.top, .right], borderWidth: 3.5, borderColor: borderColor)
     }
     
     override func didReceiveMemoryWarning() {
