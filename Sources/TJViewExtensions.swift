@@ -17,7 +17,7 @@ public enum TJViewBorderPosition {
 
 public extension UIView {
 
-    func border(borderWidth: CGFloat, borderColor: UIColor?, borderRadius: CGFloat?) {
+    public func border(borderWidth: CGFloat, borderColor: UIColor?, borderRadius: CGFloat?) {
         self.layer.borderWidth = borderWidth
         self.layer.borderColor = borderColor?.cgColor
         if let _ = borderRadius {
@@ -26,7 +26,7 @@ public extension UIView {
         self.layer.masksToBounds = true
     }
 
-    func border(_ positions: [TJViewBorderPosition], borderWidth: CGFloat, borderColor: UIColor?) {
+    public func border(_ positions: [TJViewBorderPosition], borderWidth: CGFloat, borderColor: UIColor?) {
         self.layer.sublayers = nil
         if positions.contains(.top) {
             borderTop(borderWidth, borderColor: borderColor)
@@ -82,7 +82,7 @@ public extension UIView {
     }
     
     @IBInspectable
-    var borderWidth: CGFloat {
+    public var borderWidth: CGFloat {
         get {
             return self.layer.borderWidth
         }
@@ -92,7 +92,7 @@ public extension UIView {
     }
     
     @IBInspectable
-    var borderColor: UIColor? {
+    public var borderColor: UIColor? {
         get {
             if let _ = self.layer.borderColor {
                 return UIColor(cgColor: self.layer.borderColor!)
@@ -105,7 +105,7 @@ public extension UIView {
     }
     
     @IBInspectable
-    var cornerRadius: CGFloat {
+    public var cornerRadius: CGFloat {
         get {
             return self.layer.cornerRadius
         }

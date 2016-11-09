@@ -11,7 +11,7 @@ import UIKit
 public extension UILabel {
     
     @IBInspectable
-    var underline: Bool {
+    public var underline: Bool {
         get {
             return self.underline
         }

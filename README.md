@@ -6,18 +6,27 @@ Useful extensions for UIKit framework.
 - TJViewExtensions
 - TJLabelExtensions
 
-[![CI Status](http://img.shields.io/travis/taji-taji/TJExtensions.svg?style=flat)](https://travis-ci.org/taji-taji/TJExtensions)
 [![Version](https://img.shields.io/cocoapods/v/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 [![License](https://img.shields.io/cocoapods/l/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
+![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg)
 
 ## Installation
+
+### CocoaPods
 
 TJExtensions is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "TJExtensions"
+```
+
+### Carthage
+
+```
+github "taji-taji/TJExtensions"
 ```
 
 ## Usage
