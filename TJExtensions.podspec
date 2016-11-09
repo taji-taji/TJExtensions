@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TJExtensions"
-  s.version          = "0.2.0"
+  s.version          = "0.2.2"
   s.summary          = "Useful extensions for UIKit framework."
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ Useful extensions for UIKit framework.
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'TJExtensions' => ['Pod/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'TJExtensions' => ['Pod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
