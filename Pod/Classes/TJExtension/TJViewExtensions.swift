@@ -9,62 +9,76 @@
 import UIKit
 
 public enum TJViewBorderPosition {
-    case Top
-    case Right
-    case Bottom
-    case Left
+    case top
+    case right
+    case bottom
+    case left
 }
 
 public extension UIView {
-    
-    func border(borderWidth borderWidth: CGFloat, borderColor: UIColor?, borderRadius: CGFloat?) {
+
+    func border(borderWidth: CGFloat, borderColor: UIColor?, borderRadius: CGFloat?) {
         self.layer.borderWidth = borderWidth
-        self.layer.borderColor = borderColor?.CGColor
+        self.layer.borderColor = borderColor?.cgColor
         if let _ = borderRadius {
             self.layer.cornerRadius = borderRadius!
         }
         self.layer.masksToBounds = true
     }
 
-    func border(positions: [TJViewBorderPosition], borderWidth: CGFloat, borderColor: UIColor?) {
+    func border(_ positions: [TJViewBorderPosition], borderWidth: CGFloat, borderColor: UIColor?) {
+        self.layer.sublayers = nil
+        if positions.contains(.top) {
+            borderTop(borderWidth, borderColor: borderColor)
+        }
+        if positions.contains(.left) {
+            borderLeft(borderWidth, borderColor: borderColor)
+        }
+        if positions.contains(.bottom) {
+            borderBottom(borderWidth, borderColor: borderColor)
+        }
+        if positions.contains(.right) {
+            borderRight(borderWidth, borderColor: borderColor)
+        }
+    }
+    
+    fileprivate func borderTop(_ borderWidth: CGFloat, borderColor: UIColor?) {
+        let rect = CGRect(x: 0.0, y: 0.0, width: self.frame.width, height: borderWidth)
+        addBorderWithRect(borderWidth, borderColor: borderColor, rect: rect)
+    }
 
-        let topLine = CALayer()
-        let leftLine = CALayer()
-        let bottomLine = CALayer()
-        let rightLine = CALayer()
-        let defaultBorderColor = UIColor.whiteColor()
+    fileprivate func borderBottom(_ borderWidth: CGFloat, borderColor: UIColor?) {
+        let rect = CGRect(x: 0.0, y: self.frame.height - borderWidth, width: self.frame.width, height: borderWidth)
+        addBorderWithRect(borderWidth, borderColor: borderColor, rect: rect)
+    }
+    
+    fileprivate func borderLeft(_ borderWidth: CGFloat, borderColor: UIColor?) {
+        let rect = CGRect(x: 0.0, y: 0.0, width: borderWidth, height: self.frame.height)
+        addBorderWithRect(borderWidth, borderColor: borderColor, rect: rect)
+    }
+    
+    fileprivate func borderRight(_ borderWidth: CGFloat, borderColor: UIColor?) {
+        let rect = CGRect(x: self.frame.width - borderWidth, y: 0.0, width: borderWidth, height: self.frame.height)
+        addBorderWithRect(borderWidth, borderColor: borderColor, rect: rect)
+    }
+    
+    fileprivate func addBorderWithRect(_ borderWidth: CGFloat, borderColor: UIColor?, rect: CGRect) {
+        let line = CALayer()
+        let defaultBorderColor = UIColor.white
         var CGBorderColor: CGColor
         
-        self.layer.sublayers = nil
         self.layer.masksToBounds = true
-
+        
         if let _ = borderColor {
-            CGBorderColor = borderColor!.CGColor
+            CGBorderColor = borderColor!.cgColor
         } else {
-            CGBorderColor = defaultBorderColor.CGColor
+            CGBorderColor = defaultBorderColor.cgColor
         }
         
-        if positions.contains(.Top) {
-            topLine.frame = CGRectMake(0.0, 0.0, self.frame.width, borderWidth)
-            topLine.backgroundColor = CGBorderColor
-            self.layer.addSublayer(topLine)
-        }
-        if positions.contains(.Left) {
-            leftLine.frame = CGRectMake(0.0, 0.0, borderWidth, self.frame.height)
-            leftLine.backgroundColor = CGBorderColor
-            self.layer.addSublayer(leftLine)
-        }
-        if positions.contains(.Bottom) {
-            bottomLine.frame = CGRectMake(0.0, self.frame.height - borderWidth, self.frame.width, borderWidth)
-            bottomLine.backgroundColor = CGBorderColor
-            self.layer.addSublayer(bottomLine)
-        }
-        if positions.contains(.Right) {
-            rightLine.frame = CGRectMake(self.frame.width - borderWidth, 0.0, borderWidth, self.frame.height)
-            rightLine.backgroundColor = CGBorderColor
-            self.layer.addSublayer(rightLine)
-        }
-
+        line.frame = rect
+        line.backgroundColor = CGBorderColor
+        self.layer.addSublayer(line)
+        self.setNeedsDisplay()
     }
     
     @IBInspectable
@@ -81,12 +95,12 @@ public extension UIView {
     var borderColor: UIColor? {
         get {
             if let _ = self.layer.borderColor {
-                return UIColor(CGColor: self.layer.borderColor!)
+                return UIColor(cgColor: self.layer.borderColor!)
             }
             return nil
         }
         set {
-            self.layer.borderColor = newValue?.CGColor
+            self.layer.borderColor = newValue?.cgColor
         }
     }
     

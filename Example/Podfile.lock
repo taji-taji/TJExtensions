@@ -1,11 +1,7 @@
 PODS:
-  - Nimble (3.0.0)
-  - Quick (0.8.0)
   - TJExtensions (0.1.0)
 
 DEPENDENCIES:
-  - Nimble (= 3.0.0)
-  - Quick (~> 0.8.0)
   - TJExtensions (from `../`)
 
 EXTERNAL SOURCES:
@@ -13,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  TJExtensions: 2c38946d06a82928d099ec374a79a4a9e78a113e
+  TJExtensions: 0940481fab339b304c2aeb9a7cd4469d030fbb2b
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: ab83dfbe233ac03fadaf0510424c46c8f24aa300
+
+COCOAPODS: 1.0.1
