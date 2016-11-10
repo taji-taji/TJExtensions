@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TJExtensions"
-  s.version      = "0.2.3"
+  s.version      = "0.2.4"
   s.summary      = "Useful extensions for UIKit framework."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Useful extensions for UIKit framework.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Sources/*.swift"
+  s.source_files  = "Classes", "Pod/Classes/**/*.swift"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
