@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		60B62966E5C8861E9B46CF6D /* Pods_TJExtensions_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247C7663570594AA7875F6CE /* Pods_TJExtensions_Example.framework */; };
+		93E15DF11DD547AD00A6FFF0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93E15DF01DD547AD00A6FFF0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		607FACE51AFB9204008FA782 /* TJExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		93E15DF01DD547AD00A6FFF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../TJExtensions/Info.plist; sourceTree = "<group>"; };
 		9FCFF3CE69A9D11E7379746F /* Pods-TJExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TJExtensions_Example/Pods-TJExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D0AB6F967BE19978E994D289 /* TJExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TJExtensions.podspec; path = ../TJExtensions.podspec; sourceTree = "<group>"; };
 		D51396B3CA4F9EBCE52777B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				93E15DF01DD547AD00A6FFF0 /* Info.plist */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TJExtensions */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E15DF11DD547AD00A6FFF0 /* Info.plist in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
