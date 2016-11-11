@@ -92,7 +92,7 @@ Useful extensions for UIKit framework.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "TJExtensions/*.swift"
+  s.source_files  = "Classes", "Pod/Classes/**/*.swift"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
