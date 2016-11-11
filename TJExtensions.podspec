@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TJExtensions"
-  s.version      = "0.2.8"
+  s.version      = "0.2.9"
   s.summary      = "Useful extensions for UIKit framework."
 
   # This description is used to generate tags and improve search results.
