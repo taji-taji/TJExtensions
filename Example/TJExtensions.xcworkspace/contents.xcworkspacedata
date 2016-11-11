@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../TJExtensions/TJExtensions.h">
+   </FileRef>
+   <FileRef
       location = "group:TJExtensions.xcodeproj">
    </FileRef>
    <FileRef

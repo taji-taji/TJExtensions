@@ -1,6 +1,6 @@
 {
   "name": "TJExtensions",
-  "version": "0.2.6",
+  "version": "0.2.9",
   "summary": "Useful extensions for UIKit framework.",
   "description": "Useful extensions for UIKit framework.\n'UIView', 'UILabel' and 'UIColor' are extended.",
   "homepage": "https://github.com/taji-taji/TJExtensions",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/taji-taji/TJExtensions.git",
-    "tag": "0.2.6"
+    "tag": "0.2.9"
   },
   "source_files": "TJExtensions/**/*.swift",
   "exclude_files": "Classes/Exclude",
