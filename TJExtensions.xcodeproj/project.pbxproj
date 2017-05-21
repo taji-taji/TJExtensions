@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		93A37A671DD3E7B4007131C4 /* TJExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A37A651DD3E7B4007131C4 /* TJExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93A37A711DD3E7FB007131C4 /* TJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A6E1DD3E7FB007131C4 /* TJColorExtensions.swift */; };
-		93A37A721DD3E7FB007131C4 /* TJLabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A6F1DD3E7FB007131C4 /* TJLabelExtensions.swift */; };
-		93A37A731DD3E7FB007131C4 /* TJViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A701DD3E7FB007131C4 /* TJViewExtensions.swift */; };
+		93A37A711DD3E7FB007131C4 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A6E1DD3E7FB007131C4 /* UIColorExtensions.swift */; };
+		93A37A721DD3E7FB007131C4 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A6F1DD3E7FB007131C4 /* UILabelExtensions.swift */; };
+		93A37A731DD3E7FB007131C4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A37A701DD3E7FB007131C4 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93A37A621DD3E7B4007131C4 /* TJExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TJExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A37A651DD3E7B4007131C4 /* TJExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJExtensions.h; sourceTree = "<group>"; };
 		93A37A661DD3E7B4007131C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A37A6E1DD3E7FB007131C4 /* TJColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJColorExtensions.swift; sourceTree = "<group>"; };
-		93A37A6F1DD3E7FB007131C4 /* TJLabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJLabelExtensions.swift; sourceTree = "<group>"; };
-		93A37A701DD3E7FB007131C4 /* TJViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJViewExtensions.swift; sourceTree = "<group>"; };
+		93A37A6E1DD3E7FB007131C4 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		93A37A6F1DD3E7FB007131C4 /* UILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		93A37A701DD3E7FB007131C4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +62,9 @@
 		93A37A6D1DD3E7FB007131C4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				93A37A6E1DD3E7FB007131C4 /* TJColorExtensions.swift */,
-				93A37A6F1DD3E7FB007131C4 /* TJLabelExtensions.swift */,
-				93A37A701DD3E7FB007131C4 /* TJViewExtensions.swift */,
+				93A37A6E1DD3E7FB007131C4 /* UIColorExtensions.swift */,
+				93A37A6F1DD3E7FB007131C4 /* UILabelExtensions.swift */,
+				93A37A701DD3E7FB007131C4 /* UIViewExtensions.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A37A721DD3E7FB007131C4 /* TJLabelExtensions.swift in Sources */,
-				93A37A731DD3E7FB007131C4 /* TJViewExtensions.swift in Sources */,
-				93A37A711DD3E7FB007131C4 /* TJColorExtensions.swift in Sources */,
+				93A37A721DD3E7FB007131C4 /* UILabelExtensions.swift in Sources */,
+				93A37A731DD3E7FB007131C4 /* UIViewExtensions.swift in Sources */,
+				93A37A711DD3E7FB007131C4 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +314,7 @@
 				93A37A6C1DD3E7B4007131C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
