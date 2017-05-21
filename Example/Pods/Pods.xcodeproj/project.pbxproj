@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		062A5D3D7D25757C6786FFFD976A595E /* Pods-TJExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCC539875F96CFB60C46CA86CDA8F9 /* Pods-TJExtensions_Tests-dummy.m */; };
-		0936AD9D6860C8AB33113039D4DDF87D /* TJExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A658FC108A14D665B102B0E12AE8A374 /* TJExtensions-dummy.m */; };
 		28DE87D3A71EF6AEA9EE6ECC0120E385 /* Pods-TJExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0895F9A937D2A7440C0E81F4A440DAEB /* Pods-TJExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28E2BF9A617EBBE43D340C2D4C0833B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6DEEA581EB731D5EADADE763C1C3E6AC /* TJExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D713532B88F1D4B5B606105902130F /* TJExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C8B62A689F955926AAD8A4199FBDA7C /* TJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76F4849AEDCB26E9DB60219A118DCA2 /* TJColorExtensions.swift */; };
+		377A15E316611AFD1E65A8543847E098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4181260EC3C0EFCAACF1B39FE3589238 /* TJExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C834FDFC07B554E0F5E875F4CE380EC /* TJExtensions-dummy.m */; };
+		4728333413ADA81CD7E32C086E554154 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AF1B009C34162AA03A60C864F1C67 /* UIColorExtensions.swift */; };
+		67A39078AADA52E6DCF2C9AAF8538FD9 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DDF350BDECE0FB9B2C906330D1564 /* UIViewExtensions.swift */; };
+		6DEEA581EB731D5EADADE763C1C3E6AC /* TJExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 869251AA67B1969793C8F0198A68124C /* TJExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89F607AB5625FEBFE68F501180CBC65F /* Pods-TJExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C0A0999E315188F7CE88C685AAB73B /* Pods-TJExtensions_Example-dummy.m */; };
-		9D9EF99CD3DFCC9FCBF154554AA0A745 /* TJViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C66F33231B1E06BE464E21037CA049 /* TJViewExtensions.swift */; };
+		9540C7D4CC0DBC44E3F04AF129BFF90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A6FFCAC0F3236830DFD7595D4DADCD2F /* Pods-TJExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE4DAEDBF4AF29FB7AFF9D8E748D3C83 /* Pods-TJExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B510F0BF24FD976A5047AA1F606370F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EDF031A24F2785DD6F6DEB8EAF715010 /* TJLabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A79954C74469B5934BBC9DB005825 /* TJLabelExtensions.swift */; };
-		F85EA8FC77CDA9194591FF790F9E99CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C070EF831A6866FF8E9895E062265D54 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7B4969E70001DF48D45109FEA1470 /* UILabelExtensions.swift */; };
+		C5EFF4A71E17EBDFE71B447D4C812ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,35 +42,35 @@
 		0018C1130D7760DFFC516AF8CE7A49D4 /* Pods-TJExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		072F9862FA73AE1C98E8B8CADBB9488B /* Pods-TJExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TJExtensions_Example.modulemap"; sourceTree = "<group>"; };
 		0895F9A937D2A7440C0E81F4A440DAEB /* Pods-TJExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
+		11D7B4969E70001DF48D45109FEA1470 /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		1507D58D8376D88E2456A7F58BB223D4 /* Pods-TJExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1C1DDF350BDECE0FB9B2C906330D1564 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		21B289AE0AFC3FB42C0DBBC9B538304E /* TJExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJExtensions-prefix.pch"; sourceTree = "<group>"; };
 		345CD6307E1974B6E9C01FB847434F11 /* Pods-TJExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BCDD844173BBFCDA799F3F16A48BFE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DCCCDAB0F1F0B2FA096B1B4CA0941C /* Pods-TJExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		60821CEB929FAA25575C3BE01088C64C /* TJExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TJExtensions.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66A38A008B7FD8A29B97EE1DA8267E20 /* Pods-TJExtensions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJExtensions_Example-resources.sh"; sourceTree = "<group>"; };
 		68ADA14E8F3095D66096D2CC280B0ACF /* Pods-TJExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69AA32D29163C7EB0043D30CBA869A80 /* TJExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TJExtensions.modulemap; sourceTree = "<group>"; };
 		6AACEF82C95839DBF8EC05C0F84C2718 /* Pods-TJExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
 		70A995AD95CB2F1BD7B55058247BD471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724705A216327E3B5BE11C1DC24D760E /* Pods-TJExtensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJExtensions_Tests-resources.sh"; sourceTree = "<group>"; };
+		7AA48268E3F354D13C88466D56EF4F26 /* TJExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJExtensions.xcconfig; sourceTree = "<group>"; };
 		85DCC539875F96CFB60C46CA86CDA8F9 /* Pods-TJExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
+		869251AA67B1969793C8F0198A68124C /* TJExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJExtensions-umbrella.h"; sourceTree = "<group>"; };
+		871AF1B009C34162AA03A60C864F1C67 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C25F5A9A69A00F2FED9953067D7AFED /* TJExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TJExtensions.framework; path = TJExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C834FDFC07B554E0F5E875F4CE380EC /* TJExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJExtensions-dummy.m"; sourceTree = "<group>"; };
 		A50DE7D81BCD1864B748C84E909F7CCD /* Pods-TJExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A658FC108A14D665B102B0E12AE8A374 /* TJExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJExtensions-dummy.m"; sourceTree = "<group>"; };
-		A6D713532B88F1D4B5B606105902130F /* TJExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJExtensions-umbrella.h"; sourceTree = "<group>"; };
 		A822561B41E9D41819EE90F5D0BBA806 /* Pods_TJExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TJExtensions_Tests.framework; path = "Pods-TJExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA520AAF9D7C24AC6073869D4E2FB5DF /* Pods-TJExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE2A79954C74469B5934BBC9DB005825 /* TJLabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TJLabelExtensions.swift; sourceTree = "<group>"; };
-		B7D77E007D0C3BA49F6E232B092A6004 /* TJExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJExtensions.xcconfig; sourceTree = "<group>"; };
-		B8080E85429EFCF9C51D566F59A7370E /* TJExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJExtensions-prefix.pch"; sourceTree = "<group>"; };
-		B8C66F33231B1E06BE464E21037CA049 /* TJViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TJViewExtensions.swift; sourceTree = "<group>"; };
 		BDBE4813D97390214F0534ECB6F808E1 /* Pods_TJExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TJExtensions_Example.framework; path = "Pods-TJExtensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1E6ABDD3E9801B94323B5DA72192F7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32A12603BAB36DDFD6A0FC4A2E32643 /* Pods-TJExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TJExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		D9C0A0999E315188F7CE88C685AAB73B /* Pods-TJExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJExtensions_Example-dummy.m"; sourceTree = "<group>"; };
-		E76F4849AEDCB26E9DB60219A118DCA2 /* TJColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TJColorExtensions.swift; sourceTree = "<group>"; };
 		EE4DAEDBF4AF29FB7AFF9D8E748D3C83 /* Pods-TJExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F4BC25564BE4EE4F454F1A872B516177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC1FB2B07BA3AF196B1A4A0FC7EFD3D /* Pods-TJExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF29F545389D46CF37EC67FFA0D35701 /* Pods-TJExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85EA8FC77CDA9194591FF790F9E99CE /* Foundation.framework in Frameworks */,
+				C5EFF4A71E17EBDFE71B447D4C812ABC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E2BF9A617EBBE43D340C2D4C0833B4 /* Foundation.framework in Frameworks */,
+				377A15E316611AFD1E65A8543847E098 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B510F0BF24FD976A5047AA1F606370F4 /* Foundation.framework in Frameworks */,
+				9540C7D4CC0DBC44E3F04AF129BFF90C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,15 +113,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B0D728D4FBAB261EEEF675B4E3504AD /* TJExtensions */ = {
+		26BC492B0E632FBB6697B3B73EE8DAEE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E76F4849AEDCB26E9DB60219A118DCA2 /* TJColorExtensions.swift */,
-				AE2A79954C74469B5934BBC9DB005825 /* TJLabelExtensions.swift */,
-				B8C66F33231B1E06BE464E21037CA049 /* TJViewExtensions.swift */,
+				C1E6ABDD3E9801B94323B5DA72192F7F /* Info.plist */,
+				60821CEB929FAA25575C3BE01088C64C /* TJExtensions.modulemap */,
+				7AA48268E3F354D13C88466D56EF4F26 /* TJExtensions.xcconfig */,
+				9C834FDFC07B554E0F5E875F4CE380EC /* TJExtensions-dummy.m */,
+				21B289AE0AFC3FB42C0DBBC9B538304E /* TJExtensions-prefix.pch */,
+				869251AA67B1969793C8F0198A68124C /* TJExtensions-umbrella.h */,
 			);
-			name = TJExtensions;
-			path = TJExtensions;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TJExtensions";
 			sourceTree = "<group>";
 		};
 		38A3539466A3B030F57141DEECB2D6F9 /* Targets Support Files */ = {
@@ -172,31 +175,18 @@
 		517B700F7DB3F14AB0D69C79A7E204C6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0EBB244171F1F1666E59FB725BA1006 /* TJExtensions */,
+				CFCB8E3886DD05A57F931827EFB4FB94 /* TJExtensions */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		590F58CAC19AC0029C5B1058C806CAD9 /* Support Files */ = {
+		7983D2ED5B35DE8F2A660C4D74FA06ED /* TJExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				F4BC25564BE4EE4F454F1A872B516177 /* Info.plist */,
-				69AA32D29163C7EB0043D30CBA869A80 /* TJExtensions.modulemap */,
-				B7D77E007D0C3BA49F6E232B092A6004 /* TJExtensions.xcconfig */,
-				A658FC108A14D665B102B0E12AE8A374 /* TJExtensions-dummy.m */,
-				B8080E85429EFCF9C51D566F59A7370E /* TJExtensions-prefix.pch */,
-				A6D713532B88F1D4B5B606105902130F /* TJExtensions-umbrella.h */,
+				C3910F714D02A80B3CFF3F0F53D091F6 /* Sources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TJExtensions";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
+			name = TJExtensions;
+			path = TJExtensions;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -213,19 +203,38 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0EBB244171F1F1666E59FB725BA1006 /* TJExtensions */ = {
+		C3910F714D02A80B3CFF3F0F53D091F6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				590F58CAC19AC0029C5B1058C806CAD9 /* Support Files */,
-				2B0D728D4FBAB261EEEF675B4E3504AD /* TJExtensions */,
+				871AF1B009C34162AA03A60C864F1C67 /* UIColorExtensions.swift */,
+				11D7B4969E70001DF48D45109FEA1470 /* UILabelExtensions.swift */,
+				1C1DDF350BDECE0FB9B2C906330D1564 /* UIViewExtensions.swift */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CFCB8E3886DD05A57F931827EFB4FB94 /* TJExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				26BC492B0E632FBB6697B3B73EE8DAEE /* Support Files */,
+				7983D2ED5B35DE8F2A660C4D74FA06ED /* TJExtensions */,
 			);
 			name = TJExtensions;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 971739CAAECCC9624B50D28FBEE2C6D4 /* Build configuration list for PBXNativeTarget "TJExtensions" */;
 			buildPhases = (
-				7ED9E7E99E6AB44358F484CCCB913F74 /* Sources */,
+				6890A58B0D20EED88BF40A137F0675A8 /* Sources */,
 				855E6E79A7A02AB8F3EBCB471A8CB3B5 /* Frameworks */,
 				DC0FEC011F44FFC92BD2B545AA41A3F0 /* Headers */,
 			);
@@ -317,7 +326,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -348,14 +357,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ED9E7E99E6AB44358F484CCCB913F74 /* Sources */ = {
+		6890A58B0D20EED88BF40A137F0675A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8B62A689F955926AAD8A4199FBDA7C /* TJColorExtensions.swift in Sources */,
-				0936AD9D6860C8AB33113039D4DDF87D /* TJExtensions-dummy.m in Sources */,
-				EDF031A24F2785DD6F6DEB8EAF715010 /* TJLabelExtensions.swift in Sources */,
-				9D9EF99CD3DFCC9FCBF154554AA0A745 /* TJViewExtensions.swift in Sources */,
+				4181260EC3C0EFCAACF1B39FE3589238 /* TJExtensions-dummy.m in Sources */,
+				4728333413ADA81CD7E32C086E554154 /* UIColorExtensions.swift in Sources */,
+				C070EF831A6866FF8E9895E062265D54 /* UILabelExtensions.swift in Sources */,
+				67A39078AADA52E6DCF2C9AAF8538FD9 /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,15 +394,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12371984056B6AF3AAD3B86B004C9FE0 /* Debug */ = {
+		1EFE0FD7F5669D555D5706B376B07F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7D77E007D0C3BA49F6E232B092A6004 /* TJExtensions.xcconfig */;
+			baseConfigurationReference = 0018C1130D7760DFFC516AF8CE7A49D4 /* Pods-TJExtensions_Example.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TJExtensions_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TJExtensions_Example/Pods-TJExtensions_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TJExtensions_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AFB7BE39062F685DAACB2497A019488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA48268E3F354D13C88466D56EF4F26 /* TJExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -407,86 +457,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TJExtensions/TJExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TJExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		20BBE4F67FA796FB533F05D40DEEB57B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0018C1130D7760DFFC516AF8CE7A49D4 /* Pods-TJExtensions_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TJExtensions_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TJExtensions_Example/Pods-TJExtensions_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TJExtensions_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		228D6B49EF443FC5BCF8E8017B69DB37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41DCCCDAB0F1F0B2FA096B1B4CA0941C /* Pods-TJExtensions_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TJExtensions_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TJExtensions_Example/Pods-TJExtensions_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TJExtensions_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -494,11 +469,12 @@
 			};
 			name = Release;
 		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -506,10 +482,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -538,43 +517,11 @@
 			};
 			name = Debug;
 		};
-		6C64A51A2FDDF7E11AD245EF6A8222B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7D77E007D0C3BA49F6E232B092A6004 /* TJExtensions.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TJExtensions/TJExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TJExtensions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TJExtensions/TJExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TJExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A9BD8E5AA50FFE4683341C57394C0AD6 /* Release */ = {
+		5EA2093E2CA90C066F0DCF00AF9E2090 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1507D58D8376D88E2456A7F58BB223D4 /* Pods-TJExtensions_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -601,6 +548,7 @@
 				PRODUCT_NAME = Pods_TJExtensions_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -608,50 +556,11 @@
 			};
 			name = Release;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FB32C7B46F77CE380010977386DD18BA /* Debug */ = {
+		68C99FBBBB7523624ED0198DE264389B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 345CD6307E1974B6E9C01FB847434F11 /* Pods-TJExtensions_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -678,6 +587,7 @@
 				PRODUCT_NAME = Pods_TJExtensions_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -686,14 +596,133 @@
 			};
 			name = Debug;
 		};
+		79884926395C7F1D30E2CDB1D088169B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA48268E3F354D13C88466D56EF4F26 /* TJExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TJExtensions/TJExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TJExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TJExtensions/TJExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TJExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84D6E5EB149C3E9329A055728F161B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DCCCDAB0F1F0B2FA096B1B4CA0941C /* Pods-TJExtensions_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TJExtensions_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TJExtensions_Example/Pods-TJExtensions_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TJExtensions_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -701,8 +730,8 @@
 		8D3189518EBE42F0E470B65D8691F304 /* Build configuration list for PBXNativeTarget "Pods-TJExtensions_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BBE4F67FA796FB533F05D40DEEB57B /* Debug */,
-				228D6B49EF443FC5BCF8E8017B69DB37 /* Release */,
+				1EFE0FD7F5669D555D5706B376B07F19 /* Debug */,
+				84D6E5EB149C3E9329A055728F161B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -710,8 +739,8 @@
 		971739CAAECCC9624B50D28FBEE2C6D4 /* Build configuration list for PBXNativeTarget "TJExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12371984056B6AF3AAD3B86B004C9FE0 /* Debug */,
-				6C64A51A2FDDF7E11AD245EF6A8222B3 /* Release */,
+				79884926395C7F1D30E2CDB1D088169B /* Debug */,
+				2AFB7BE39062F685DAACB2497A019488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -719,8 +748,8 @@
 		AAC025A2BB86CCBBB7313D3645385BE4 /* Build configuration list for PBXNativeTarget "Pods-TJExtensions_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB32C7B46F77CE380010977386DD18BA /* Debug */,
-				A9BD8E5AA50FFE4683341C57394C0AD6 /* Release */,
+				68C99FBBBB7523624ED0198DE264389B /* Debug */,
+				5EA2093E2CA90C066F0DCF00AF9E2090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

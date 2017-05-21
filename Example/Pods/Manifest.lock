@@ -1,16 +1,16 @@
 PODS:
-  - TJExtensions (0.2.9)
+  - TJExtensions (0.2.10)
 
 DEPENDENCIES:
   - TJExtensions (from `../`)
 
 EXTERNAL SOURCES:
   TJExtensions:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  TJExtensions: 70e01614a9bff84bb8f76861c68426f0cfd3ee5b
+  TJExtensions: 7e1a8c806db0cee18c35a44eaf0d01d60506a395
 
 PODFILE CHECKSUM: ab83dfbe233ac03fadaf0510424c46c8f24aa300
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.1
