@@ -31,7 +31,7 @@ public extension UIView {
     /**
      Extended by TJExtensions
      */
-    public func border(_ positions: [TJViewBorderPosition], borderWidth: CGFloat, borderColor: UIColor?) {
+    public func border(_ positions: Set<TJViewBorderPosition>, borderWidth: CGFloat, borderColor: UIColor?) {
         self.layer.sublayers = nil
         if positions.contains(.top) {
             borderTop(borderWidth, borderColor: borderColor)
@@ -90,7 +90,7 @@ public extension UIView {
      Extended by TJExtensions
      */
     @IBInspectable
-    public var borderWidth: CGFloat {
+    var borderWidth: CGFloat {
         get {
             return self.layer.borderWidth
         }
@@ -103,7 +103,7 @@ public extension UIView {
      Extended by TJExtensions
      */
     @IBInspectable
-    public var borderColor: UIColor? {
+    var borderColor: UIColor? {
         get {
             if let _ = self.layer.borderColor {
                 return UIColor(cgColor: self.layer.borderColor!)
@@ -119,7 +119,7 @@ public extension UIView {
      Extended by TJExtensions
      */
     @IBInspectable
-    public var cornerRadius: CGFloat {
+    var cornerRadius: CGFloat {
         get {
             return self.layer.cornerRadius
         }
