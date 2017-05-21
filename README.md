@@ -2,9 +2,9 @@
 
 Useful extensions for UIKit framework.
 
-- TJColorExtensions
-- TJViewExtensions
-- TJLabelExtensions
+- UIColor Extensions
+- UIView Extensions
+- UILabel Extensions
 
 [![Version](https://img.shields.io/cocoapods/v/TJExtensions.svg?style=flat)](http://cocoapods.org/pods/TJExtensions)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
@@ -33,7 +33,7 @@ github "taji-taji/TJExtensions"
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-### TJColorExtensions
+### UIColor Extensions
 
 #### Initializers
 
@@ -47,7 +47,7 @@ let redColor = UIColor.init(hex: 0xFF0000, alpha: 1.0)
 let greenColor = UIColor(intRed: 0, green: 255, blue: 0, alpha: 1.0)
 ```
 
-### TJViewExtensins
+### UIView Extensins
 
 #### Methods
 
@@ -70,7 +70,7 @@ borderedView.border([.Top, .Right], borderWidth: 3.5, borderColor: borderColor)
 ```
 
 
-### TJLabelExtensions
+### UILabel Extensions
 
 #### Inspectable Variables
 
