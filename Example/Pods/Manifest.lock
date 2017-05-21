@@ -1,5 +1,5 @@
 PODS:
-  - TJExtensions (0.2.10)
+  - TJExtensions (0.2.11)
 
 DEPENDENCIES:
   - TJExtensions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TJExtensions: 7e1a8c806db0cee18c35a44eaf0d01d60506a395
+  TJExtensions: 90c9f6dfe24db118a1dad5ac784f58fde44a091b
 
 PODFILE CHECKSUM: ab83dfbe233ac03fadaf0510424c46c8f24aa300
 
